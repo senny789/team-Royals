@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header"> 
+        <h1>Unit Converter</h1>
+        <ul>
+            <li class="length">length</li>
+            <li class="mass"> mass</li>
+            <li class="time">time</li>
+            <li class="temperature">temperature</li>
+        </ul>
+        </div>
+        <div class="content">
+            <!-- <img src="images/length.jpg" alt="">
+            <img src="images/temp.webp" alt="">
+            <img src="images/time.webp" alt="">
+            <img src="images/weight.jpg" alt=""> -->
+        <div class="io">
+        <label >From</label>
+        <select style="display: none;" class="mass">
+        <option class="from"> kg</option>
+        <option class="from">gm</option>
+                <option class="from">mg</option>
+            </select>
+            <select style="display: none;" class="length">
+            <option class="from">mm</option>
+            <option class="from">cm</option>
+            <option class="from">m</option>
+            <option class="from">km</option>
+            </select>
+        <select style="display: none;" class="time">
+        <option class="from">ms</option>
+        <option class="from">ns</option>
+        <option class="from">s</option>
+        <option class="from">min</option>   
+        <option class="from"> hour</option>
+        </select>   
+                <select style="display: none;" class="temperature"> 
+            <option class="from">celcius</option>
+            <option class="from">kelvin</option>
+            <option class="from">fahrenheit</option>
+        </select>
+
+             <input type="text" class="from">
+            
+    <label >To</label>
+            <select style="display: none;" class="mass">
+                <option class="to">kg</option>
+                <option class="to"> gm</option>
+                <option class="to">mg</option>
+            </select>
+            <select style="display: none;" class="length">
+            <option class="to">mm</option>
+            <option class="to">cm</option>
+            <option class="to">m</option>
+            <option class="to">km</option>
+             </select>
+        <select style="display: none;" class="time">
+        <option class="to">ms</option>
+        <option class="to">ns</option>
+        <option class="to">s</option>
+        <option class="to">min</option>
+        <option class="to"> hour</option>
+        </select>   
+                <select style="display: none;" class="temperature"> 
+            <option class="to">celcius</option>
+            <option class="to">kelvin</option>
+            <option class="to">fahrenheit</option>
+        </select>
+           <input type="text" class="to">
+           
+           
+        </div>
+           
+    </div>
+        <footer>
+           <marquee> <h3>presented by team royals</h3></marquee>
+           
+        </footer>
+    
+</div>
+<script src="script.js"></script>
+</body>
+</html>
